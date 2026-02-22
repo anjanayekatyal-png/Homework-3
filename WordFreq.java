@@ -8,6 +8,7 @@ public WordFreq(String word, int frequency) {
   
 }
 public String toString() {
-  return word + 
+  return word + " : " + frequency;
+}
 }
   
