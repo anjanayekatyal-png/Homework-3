@@ -4,6 +4,10 @@ public class WordFreq {
 
 public WordFreq(String word, int frequency) {
   this.word = word;
+  this.frequency = frequency;
   
+}
+public String toString() {
+  return word + 
 }
   
