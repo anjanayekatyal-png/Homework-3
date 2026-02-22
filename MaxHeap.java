@@ -37,9 +37,12 @@ public class MaxHeap {
                 new WordFreq("easy to use", 140),
                 new WordFreq("would recommend to friends", 800),
                 new WordFreq("visit the store", 700)
-    }
-  }
+    };
 
-    
-    
+    buildMaxHeap(arr);
+
+    for (WordFreq wf : arr){
+      System.out.println(wf);
+    }
+  }   
 }
